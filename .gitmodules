@@ -1,3 +1,3 @@
 [submodule "foolscap-secret"]
 	path = foolscap-secret
-	url = /Users/dougbeal/git.private/foolscap-secret/
+	url = git@bitbucket.org:dougbeal/foolscap-secret.git
