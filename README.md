@@ -6,3 +6,6 @@ Trello.configure do |config|
   # https://trello.com/1/authorize?expiration=never&name=SinglePurposeToken&key=REPLACEWITHYOURKEY
   config.member_token = "https://trello.com/1/authorize?expiration=never&name=SinglePurposeToken&key=REPLACEWITHYOURKEY"
 end
+
+
+# ruby json.rb 

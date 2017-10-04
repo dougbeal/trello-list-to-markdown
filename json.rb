@@ -14,7 +14,7 @@ board = Trello::Board.find(boardid)
 board.lists.each do |list|
   if list.name =~ /[mM]eeting/
     filename = "#{list.id} - #{list.name}"
-    File.open(path.join(filename), 'w') { |f|
+    File.open(path.join("#{filename}.md"), 'w') { |f|
       f.puts "# #{list.id} - #{list.name}"
       list.cards( :members => true ).each do |card|
         member_string = card.members.map {|member| member.username }.join(",")
